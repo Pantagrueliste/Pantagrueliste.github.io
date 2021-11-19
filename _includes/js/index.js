@@ -1,4 +1,4 @@
-const CSV_URL = "distribution-analysis-corrected-2.csv";
+const CSV_URL = "/../../../../distribution-analysis-corrected-2.csv";
 d3.csv(CSV_URL).then((data) => {
   const groupByCategorySwitch = document.querySelector(
     "#group-by-category-switch"
