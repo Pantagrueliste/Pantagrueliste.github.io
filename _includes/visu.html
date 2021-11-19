@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/../../../../css/index.css" />
+    <link rel="stylesheet" href="/../../../../css/vis-treemap.css" />
+    <link rel="stylesheet" href="/../../../../css/vis-tooltip.css" />
+  </head>
+  <body>
+    <div class="stacked">
+      <div class="switch">
+        <input
+          type="checkbox"
+          name="group-by-category-switch"
+          id="group-by-category-switch"
+          checked
+        />
+        <label for="group-by-category-switch"> Group folios by category </label>
+      </div>
+      <p>Click any cell to zoom in, or the top to zoom out.</p>
+      <div id="treemap"></div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="/../../../../js/vis-treemap.js"></script>
+    <script src="/../../../../js/vis-tooltip.js"></script>
+    <script src="/../../../../js/index.js"></script>
+  </body>
+</html>
